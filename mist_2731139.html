@@ -51,29 +51,29 @@
     <h2>Url: http://eecs.csuohio.edu/~mistiffl/</h2>
   </div>
 
-  <div class="slideshow-container">
+  <div class="slideshow">
 
-    <div class="mySlides">
+    <div class="slides">
       <img src="images/nature.jfif" style="width:100%; height: 80%;border: 7px solid black;">
     </div>
 
-    <div class="mySlides">
+    <div class="slides">
       <img src="images/raccoon.jfif" style="width:100%; height: 80%;border: 7px solid black;">
     </div>
 
-    <div class="mySlides">
+    <div class="slides">
       <img src="images/rocket.jfif" style="width:100%; height: 80%;border: 7px solid black;">
     </div>
 
   </div>
-  <br></br>
+
+  <script>
+  nextSlide()
+  </script>
+  
 
   <div style="text-align:center">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
+    <button type="button" onclick="nextSlide()">Next</button>
   </div>
-
-  <script>showSlides();</script>
 </body>
 <html>
