@@ -1,0 +1,61 @@
+table.table {
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+  white-space: nowrap;
+  text-decoration: none;
+  border-collapse: separate;
+  border-spacing: 0 1px;
+}
+
+thead {
+  font-size: 13px;
+  font-family: Tahoma;
+  color: white;
+  background-color: #687291;
+  font-weight: bold;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th {
+  border-top: none;
+  padding: 1px;
+}
+
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-top: none;
+  padding: 1px;
+}
+
+tr.odd {
+  font-size: 13px;
+  font-family: Tahoma;
+  background-color: #eeeff2;
+}
+
+tr.even {
+  font-size: 13px;
+  font-family: Tahoma;
+  background-color: #dfe1e7;
+}
+
+th.left {
+  text-align: left;
+}
+
+th.center {
+  text-align: center;
+}
+
+td.left {
+  text-align: left;
+}
+
+td.center {
+  text-align: center;
+}
+
+tr.total {
+  display: none;
+}

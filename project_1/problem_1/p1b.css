@@ -1,0 +1,49 @@
+table.table {
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+  border: 10px solid #d0d0ff;
+  white-space: nowrap;
+  text-decoration: none;
+  border-collapse: separate;
+  border-spacing: 0 1px;
+}
+
+tr.header {
+  font-size: 13px;
+  font-family: Tahoma;
+  color: black;
+  font-weight: bold;
+}
+
+tr {
+  font-size: 13px;
+  font-family: Tahoma;
+}
+
+th.left {
+  text-align: left;
+}
+
+th.center {
+  text-align: center;
+}
+
+td.left {
+  text-align: left;
+}
+
+td.center {
+  text-align: center;
+}
+
+#last {
+  border-bottom: 2px solid #000;
+}
+
+tr.total {
+  font-size: 13px;
+  font-family: Tahoma;
+  color: black;
+  font-weight: bold;
+}

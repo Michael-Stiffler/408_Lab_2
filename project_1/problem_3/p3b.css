@@ -1,0 +1,64 @@
+table.table {
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  border: 10px solid #d0d0ff;
+  white-space: nowrap;
+  text-decoration: none;
+  border-collapse: separate;
+  border-spacing: 0 1px;
+}
+
+thead {
+  font-size: 13px;
+  font-family: Tahoma;
+  color: black;
+  font-weight: bold;
+  border-top: none;
+  border-bottom: none;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th {
+  border-top: none;
+  padding: 1px;
+}
+
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-top: none;
+  border-bottom: none;
+  padding: 1px;
+}
+
+tr {
+  font-size: 13px;
+  font-family: Tahoma;
+}
+
+th.left {
+  text-align: left;
+}
+
+th.center {
+  text-align: center;
+}
+
+td.left {
+  text-align: left;
+}
+
+td.center {
+  text-align: center;
+}
+
+#last {
+  border-bottom: 2px solid #000;
+}
+
+tr.total {
+  font-size: 13px;
+  font-family: Tahoma;
+  color: black;
+  font-weight: bold;
+}
