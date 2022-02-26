@@ -58,3 +58,37 @@ img {
   padding-left: 4%;
   font-size: 35px;
 }
+
+.video_div {
+  position: relative;
+  display: flex;
+  width: max-content;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.video_div .controls {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.video_div .controls button {
+  background: black;
+  color: gray;
+  font-weight: bolder;
+  display: none;
+}
+
+.video_div .controls #list {
+  list-style: none;
+}
+
+.video_div #video {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+}

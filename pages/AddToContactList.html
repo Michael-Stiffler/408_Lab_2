@@ -42,5 +42,38 @@
       </div>
     </div>
   </nav>
+
+  <form action="ServerScriptFile.html" method="get" id="form">
+    <label for="fname">First name</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">Email</label><br>
+    <input type="text" id="email" name="email">
+    <br></br>
+    <input type="submit" value="Submit">
+  </form>
+  <br></br>
+  <h2>If you click the "Verify" button, to display your contact info and the URL where to send the form data when the
+    form above is submitted</h2>
+  <br></br>
+  <input type="submit" value="Verify" onclick="showForm()">
+  <br></br>
+  <h3>Key name of First Name: </h3>
+  <p><span id="key_firstname"></span></p>
+  <h3>Value of First Name: </h3>
+  <p><span id="firstname"></span></p>
+  <h3>Key name of Last Name: </h3>
+  <p><span id="key_lastname"></span></p>
+  <h3>Value of Last Name: </h3>
+  <p><span id="lastname"></span></p>
+  <h3>Key name of Email: </h3>
+  <p><span id="key_email"></span></p>
+  <h3>Value of Email: </h3>
+  <p><span id="useremail"></span></p>
+  <h3>Value of action attribute of your Form element: </h3>
+  <p><span id="key_action"></span></p>
+
+  <script src="../scripts/contact.js"></script>
 </body>
 <html>
