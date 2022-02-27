@@ -6,5 +6,11 @@ function showForm() {
   document.getElementById("useremail").innerHTML =
     document.getElementById("email").value;
   document.getElementById("key_action").innerHTML =
-    document.getElementById("form").action;
+    document.getElementById("form").action +
+    "?fname=" +
+    document.getElementById("fname").value +
+    "&lname=" +
+    document.getElementById("lname").value +
+    "&email=" +
+    document.getElementById("email").value;
 }

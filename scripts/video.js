@@ -5,10 +5,12 @@ const restart = document.getElementById("restart");
 const rewind = document.getElementById("rewind");
 const forward = document.getElementById("forward");
 const image = document.getElementById("image");
+const image_screen = document.getElementById("image_screen");
 
 let time = 80;
 
 doAnimation();
+doScreenAnimation();
 
 play.addEventListener("click", playOrPause);
 pause.addEventListener("click", playOrPause);
@@ -103,4 +105,18 @@ function doAnimation() {
     }
     image.src = "../images/run-" + index + ".png";
   }, time);
+}
+
+function doScreenAnimation() {
+  let index = 1;
+  value = ["0%", "20%", "40%", "60%", "80%"];
+
+  animation = setInterval(() => {
+    index++;
+    if (index == 6) {
+      index = 1;
+    }
+    image_screen.src = "../images/run-" + index + ".png";
+    image_screen.style.left = value[index - 1];
+  }, 100);
 }
